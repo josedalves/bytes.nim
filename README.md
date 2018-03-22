@@ -73,6 +73,7 @@ A more complex example - packing and unpacking an object:
     unpack_into(unpacked, packed)
 
 The pack/unpack functions are smart enough to deal with nested objects:
+
     ## An example object:
     type
         MyObject = object
