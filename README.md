@@ -23,7 +23,7 @@ To install:
 
 To generate documentation:
 
-   nim doc bytes.nim
+    nim doc bytes.nim
 
 A file named "bytes.html" will be generated
 
@@ -32,6 +32,7 @@ A file named "bytes.html" will be generated
 Proper unit tests haven't been developed, but a test script is included.
 
 To test:
+
     nim c -r tests.nim
 
 If all tests pass, program exits with code 0.
